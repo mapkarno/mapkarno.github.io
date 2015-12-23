@@ -1,0 +1,31 @@
+.clearfix:before,
+.clearfix:after {
+  content:"";
+  display:table;
+}
+.clearfix:after {
+  clear:both;
+}
+
+html {
+	min-width: 900px;
+}
+
+body {
+	margin: 0;
+	font: 13px/18px Arial, sans-serif;
+}
+
+.container {
+	margin: auto;
+}
+
+.intro {
+	
+	background: #fff url('../img/intro.jpg') 50% 0 no-repeat;
+}
+
+.header {
+
+	text-align: center;
+}
